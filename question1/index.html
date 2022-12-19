@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>OOP in JS</title>
+</head>
+<body>
+
+    <br>
+    <label for="shapes">Choose a Shape:</label>
+      <select name="shapes" id="shapes" onchange="updateInputs();">
+        <option value="circle">Circle</option>
+        <option value="cylindrical">Cylindrical</option>
+        <option value="square">Square</option>
+        <option value="rectangle">Rectangle</option>
+      </select>
+      <br><br>
+
+      <label for="radius">Radius :</label>
+      <input type="number" name="radius" id="radius">  
+
+      <br><br>
+
+      <label for="radius">Width :</label>
+      <input type="number" name="width"  id="width">  
+
+      <br><br>
+
+      <label for="radius">Height :</label>
+      <input type="number" name="height"  id="height">  
+
+      <br><br><br>
+
+      <button type="button" onclick="calculate();">Calculate...</button>
+    
+    <p>Perimeter: </p>
+    <div id="perimeter"> </div>
+
+    <br>
+
+    <p>Area: </p>
+    <div id="area"> </div>
+
+
+    <script src="main.js"></script>
+
+</body>
+</html>
+
+
